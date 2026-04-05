@@ -5,12 +5,16 @@ The project evaluates the trade-offs between isolation, cold-start latency, and 
 
 ## Overview
 
-![System stack overview](figures/stack_overview.png)
+<p align="center">
+  <img src="figures/stack_overview.png" alt="System stack overview" width="250">
+</p>
 
-_Figure 1. Stack overview across user space, kernel space, and hardware._
+<p align="center"><em>Stack overview across user space, kernel space, and hardware.</em></p>
 
 ## PCI/VFIO Data Path
 
-![PCI VFIO data path](figures/pci_vfio_path.png)
+<p align="center">
+  <img src="figures/pci_vfio_path.png" alt="PCI/VFIO data path" width="700">
+</p>
 
-_Figure 2. Minimal PCI/VFIO surface used by the prototype, including BAR mapping, DMA translation, MSI/MSI-X delivery, and virtual interrupt injection._
+<p align="center"><em>Minimal PCI/VFIO surface used by the prototype.</em></p>
